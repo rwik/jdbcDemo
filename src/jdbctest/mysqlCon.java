@@ -11,7 +11,7 @@ public class mysqlCon {
 			String url="jdbc:mysql://localhost/javadb";
 			String userName="root";String password="";
 			con = DriverManager.getConnection(url, userName, password);
-			System.out.println("Connection established Sucessfully");
+			//System.out.println("Connection established Successfully");
 			
 			}
 		catch(Exception e)
